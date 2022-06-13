@@ -1,7 +1,7 @@
 import pytest
 from fastapi import HTTPException
 
-from ..services.validator import validate_user_request
+from services.validator import validate_user_request
 
 CORRECT_URL = "https://google.com"
 INVALID_URL = "htps://google.com"

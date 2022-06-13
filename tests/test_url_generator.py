@@ -1,7 +1,7 @@
 from re import findall
 from unittest import TestCase
 
-from ..services.url_generator import generate_url_key
+from services.url_generator import generate_url_key
 
 
 class KeyGenerationCase(TestCase):

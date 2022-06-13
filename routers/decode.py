@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Request, HTTPException
 
-from ..models.urlpair import URLPair
-from ..services.url_generator import url_cache
-from ..services.validator import validate_user_request
+from models.urlpair import URLPair
+from services.url_generator import url_cache
+from services.validator import validate_user_request
 
 router = APIRouter()
 

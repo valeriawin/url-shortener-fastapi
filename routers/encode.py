@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Request
 
-from ..models.urlpair import URLPair
-from ..services.validator import validate_user_request
-from ..services.url_generator import generate_url_key, url_cache
+from models.urlpair import URLPair
+from services.validator import validate_user_request
+from services.url_generator import generate_url_key, url_cache
 
 router = APIRouter()
 

@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from .routers import encode, decode
+from routers import encode, decode
 
 app = FastAPI()
 
